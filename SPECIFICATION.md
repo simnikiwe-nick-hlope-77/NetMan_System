@@ -1,5 +1,3 @@
-## SPECIFICATION.md
-
 # NetMan_System Specifications
 
 ## Project Title
