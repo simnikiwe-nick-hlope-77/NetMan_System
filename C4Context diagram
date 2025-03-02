@@ -1,0 +1,33 @@
+```mermaid
+---
+title: Full C4 Context Diagram
+---
+C4Context
+  %% People
+  Person(admin, "👨‍💻 Network Admin", "Manages and monitors the network.") 
+
+  %% Core System
+  System(NMS, "📊 Network Management System", "Monitors network performance, alerts failures, and manages configurations.") 
+
+  %% External Systems
+  System_Ext(EmailService, "📩 Email Service", "Sends automated notifications to admins.") 
+  System_Ext(SolarWinds, "☁️ SolarWinds Cloud", "Provides cloud-based network monitoring and performance analysis.") 
+  System_Ext(AutoConfig, "🛠️ Auto-Configuration System", "Automates mass configuration deployment for network devices.") 
+  System_Ext(Devices, "📡 Routers & Switches", "Network infrastructure managed by AutoConfig.") 
+
+  %% Relationships (High Contrast & Bold)
+  Rel(admin, NMS, "**Monitors & Configures**", $linkColor="#000000", $textColor="#000000", $lineStyle="solid") 
+  Rel(NMS, EmailService, "**Sends Alerts**", $linkColor="#000000", $textColor="#000000", $lineStyle="solid") 
+  Rel(NMS, SolarWinds, "**Sends Performance Data**", $linkColor="#000000", $textColor="#000000", $lineStyle="solid") 
+  Rel(NMS, AutoConfig, "**Pushes Configurations**", $linkColor="#000000", $textColor="#000000", $lineStyle="solid") 
+  Rel(AutoConfig, Devices, "**Deploys Configurations**", $linkColor="#000000", $textColor="#000000", $lineStyle="solid") 
+
+  %% Layout & Styling (Better Readability)
+  UpdateLayoutConfig($c4ShapeInRow="true")
+
+  UpdateElementStyle(admin, $backgroundColor="#FFFFFF", $textColor="#000000", $borderColor="#000000") 
+  UpdateElementStyle(NMS, $backgroundColor="#1E90FF", $textColor="#FFFFFF", $borderColor="#FFFFFF") 
+  UpdateElementStyle(EmailService, $backgroundColor="#FFD700", $textColor="#000000", $borderColor="#000000") 
+  UpdateElementStyle(SolarWinds, $backgroundColor="#C0C0C0", $textColor="#000000", $borderColor="#000000")  %% Grey Background with Black Text
+  UpdateElementStyle(AutoConfig, $backgroundColor="#32CD32", $textColor="#000000", $borderColor="#000000") 
+  UpdateElementStyle(Devices, $backgroundColor="#8A2BE2", $textColor="#FFFFFF", $borderColor="#FFFFFF") 
