@@ -25,6 +25,9 @@ These requirements will help in designing a comprehensive network management sof
 ### 1. Fault Management: 
 The system should perform real-time detection, notification, and if possible correction of anomalies within the network infrastructure.
 ### 2. Configuration Management:
-The system should be able to manage conifguration, including mass configuration of network devices, inventory management, and software management.
+The system should be able to manage conifguration, including mass configuration of network devices, inventory management, and software management. The system should also be able to captutre logs and store backups of configuration files.
 ### 3. Performance Management:
 The system should monitor, measure, and report certain aspects of network operations to maintain a high level of network performance.
+### 4. Security Management:
+Through the  RADIUS and TACACS security protocols, network engineers and administrators can enforce user validation and authentication before granting individuals access to the network devices. The network engineers should segment the network into different parts through the use of VLANs, manage access control via ACLs and traffic rules set by a firewall to prevent unauthorised access to the network. This will prevent the potential spread of malicious traffic throughout the network. The security team should conduct continuous monitoring and logging of network activities to help identify unusual patterns and prevent data breaches.
+### 5. Accounting Management:
