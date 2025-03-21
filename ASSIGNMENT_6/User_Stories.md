@@ -1,5 +1,5 @@
 ### USER STORY CREATION
-We converted the [functional requirements](https://github.com/simnikiwe-nick-hlope-77/NetMan_System/blob/master/ASSIGNMENT_4/Functional%20Requirements.md) from Assignment 4 and the [use cases](https://github.com/simnikiwe-nick-hlope-77/NetMan_System/blob/master/ASSIGNMENT_5/Use%20Case%20Specifications.md) from Assignment 5 into user stories.
+We converted the [functional requirements from Assignment 4](https://github.com/simnikiwe-nick-hlope-77/NetMan_System/blob/master/ASSIGNMENT_4/Functional%20Requirements.md) and the [use cases from Assignment 5](https://github.com/simnikiwe-nick-hlope-77/NetMan_System/blob/master/ASSIGNMENT_5/Use%20Case%20Specifications.md) into user stories.
 ### User Stories Table
 
 | **Story ID** | **User Story** | **Acceptance Criteria** | **Priority (High/Medium/Low)** |
