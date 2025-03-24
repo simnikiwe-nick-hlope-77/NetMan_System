@@ -12,3 +12,31 @@
 | **US-008** | As a network admin, I want a role-based access control system so that only authorized users can manage devices. | **Must-have** | 4 | US-002 |
 
 ---
+# Justification for Prioritization in NetMan_Sys  
+
+| **Story ID** | **User Story** | **Justification** |
+|-------------|-----------------------------------------------------------------|------------------------------------------------|
+| **US-001** | Monitor real-time device status | *Essential for network visibility; without this, admins cannot detect failures.* |
+| **US-002** | Multi-user authentication | *Security-critical; ensures only authorized users can access NetMan_Sys.* |
+| **US-003** | Alert notifications for offline devices | *Prevents downtime; admins must be notified of failures in real time.* |
+| **US-007** | Encrypt system logs using AES-256 | *Ensures data integrity and compliance with security standards.* |
+| **US-008** | Role-based access control | *Prevents unauthorized changes by restricting permissions to specific roles.* |
+
+---
+
+## **Should-Have User Stories (Important but Not Urgent for MVP)**  
+
+| **Story ID** | **User Story** | **Justification** |
+|-------------|-----------------------------------------------------------------|------------------------------------------------|
+| **US-004** | Generate network performance reports | *Valuable for long-term analysis but not required for real-time monitoring.* |
+| **US-005** | Remotely restart malfunctioning devices | *Improves efficiency but can be handled manually in early versions.* |
+
+---
+
+## **Could-Have User Stories (Enhancements for Future Sprints)** 
+
+| **Story ID** | **User Story** | **Justification** |
+|-------------|-----------------------------------------------------------------|------------------------------------------------|
+| **US-006** | Dashboard with system-wide analytics | *Helpful for advanced monitoring but not required for core operations.* |
+
+---
