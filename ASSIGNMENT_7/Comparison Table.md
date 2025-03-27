@@ -2,4 +2,4 @@
 - Columns and Workflows
 - Automation Features
 - Suitability for Agile Methodologies
----
+------
