@@ -10,4 +10,4 @@
 | **Basic Kanban**    | To Do, In Progress, Done               | No automation of issues, tasks must be moved manually | Requires manual intervention |
 | **Automated Kanban**| To Do, In Progress, Done, Backlog, Sprint, Review | Issues move automatically when assigned, closed, or reopened. Able to automate workflows | Highly suitable, reduces manual effort and improves workflow efficiency |
 | **Bug Triage**      | To triage, Backlog, Ready, In progress, In review, Done | Automatically assigns bugs to team members and moves based on priority | Ideal for Agile teams handling bug fixes, supports continuous improvement |
-| **Team Planning**   | Backlog, Sprint, In Progress, Review, Done | Automates Sprint planning, moves tasks based on deadlines | Best for Scrum teams managing sprints efficiently |
+| **Team Retrospective** | Agenda, What went well, What can be improved, Action items | Automatically categorizes feedback and track follow-up actions | Perfect for agile, and helping teams with continuous improvement |
