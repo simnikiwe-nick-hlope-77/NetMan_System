@@ -8,3 +8,4 @@ Maintenance --> DeviceActive : Operation Resumed
 DeviceActive --> DeActivated : NetworkAdmin Deactivates Device
 DeActivated --> DeviceReplaced : IT Operations Team Replaces Device
 DeviceReplaced --> DeviceActive : ReActivated
+DeviceUpgrade --> RetireDevice : Retired
