@@ -1,5 +1,6 @@
 ### ACTIVE DIRECTORY STATE DIAGRAM
 ```mermaid
+stateDiagram-v2
 [*] --> UserCreated
 UserCreated --> AdminPrivileges : Network Admin Role Assigned
 UserCreated --> Cybersecurity : Cybersecurity Privilege Role Assigned
