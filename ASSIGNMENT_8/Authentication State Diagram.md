@@ -1,6 +1,6 @@
 ### USER LOGIN AUTHENTICATION STATE DIAGRAM
 ```mermaid
-AuthenticationStateDiagram-v2
+stateDiagram-v2
 [*] --> Idle
 Idle --> UsernameEntered : Enter Username
 UsernameEntered --> EnterPassword : PasswordVerified
