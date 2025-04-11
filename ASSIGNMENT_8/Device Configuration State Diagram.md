@@ -1,4 +1,5 @@
 ### DEVICE CONFIGURATION STATE DIAGRAM
+```mermaid
 stateDiagram-v2
     [*] --> Unconfigured
     Unconfigured --> BaselineConfigured : Apply Default Config
