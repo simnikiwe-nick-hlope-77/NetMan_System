@@ -6,7 +6,7 @@
 - `Encrypted`: AES-256 applied.
 - `Validated`: Encryption verified.
 - `DecryptionRequested`: Temporary read access granted.
-- `ReEncrypted`: Re-applied with new key (e.g., after key rotation).
+- `ReEncrypted`: Re-applied with new key.
 - `AuditLogged`: Compliance log entry.
 - `NonCompliant`: Data failed encryption or integrity checks.
 
