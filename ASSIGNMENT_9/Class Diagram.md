@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     %% === CLASSES ===
     class Administrator {
