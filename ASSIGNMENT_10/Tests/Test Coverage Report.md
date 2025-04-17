@@ -17,3 +17,4 @@
 - All object creation logic was thoroughly tested.
 - Edge cases were validated: invalid input handling, deep cloning, and singleton enforcement.
 - Report reflects complete code path execution with no missed statements.
+- All test cases are in the [class implementations](https://github.com/simnikiwe-nick-hlope-77/NetMan_System/blob/master/ASSIGNMENT_10/Source%20Code/Class%20Implementations.py) under the Creational Patterns folder
