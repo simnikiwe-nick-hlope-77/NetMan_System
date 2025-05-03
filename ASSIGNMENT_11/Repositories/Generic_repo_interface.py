@@ -1,4 +1,4 @@
-# repositories/repository.py
+#Repositories/Generic_repo_interface.py
 
 from typing import TypeVar, Generic, List, Optional
 from abc import ABC, abstractmethod
